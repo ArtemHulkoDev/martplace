@@ -4,15 +4,68 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>MartPlace</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/libs.min.css">
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
 
+  <header class="header">
+    <div class="header__top">
+      <div class="container">
+        <div class="header__top-inner">
+          <div class="header__logo">
+            <a  href="#">
+              <img src="images/logo.png" alt="">
+            </a>
+          </div>
+          <a class="header__btn" href="#">
+            Become a Seller
+          </a>
+          <div class="header__account">
+            <div class="header__account-icons">
+              <a class="notification" href="#"><img src="images/icons/notification.png" alt=""></a>
+              <a class="message" href="#"><img src="images/icons/message.png" alt=""></a>
+              <a class="basket" href="#"><img src="images/icons/basket.png" alt=""></a>
+            </div>
+            <div class="header__account-photo" style="background-image: url(images/account.png);"></div>
+            <div class="header__account-info">
+              <a href="#">Taofiq Hakim</a>
+              <span>$20.45</span>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </div>
+    <div class="header__bottom">
+      <div class="container">
+        <div class="header__bottom-inner">
+          <nav class="header__bottom-menu">
+            <ul>
+              <li><a href="#">HOME</a></li>
+              <li><a href="#">ALL PRODUCTS</a></li>
+              <li><a href="#">WORDPRESS</a></li>
+              <li><a href="#">FEATURES</a></li>            
+              <li><a href="#">PAGES</a></li>
+            </ul>
+          </nav> 
+          <div class="header__bottom-search">
+            <form>
+              <input type="text" placeholder="Search product here..." required>
+              <button type="submit">
+                <img src="images/icons/search.png" alt="">
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="js/libs.min.js"></script>
-  <script src="js/main.min.js"></script>
+  <script src="js/main.js"></script>
 
 </body>
 </html>
