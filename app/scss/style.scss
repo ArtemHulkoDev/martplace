@@ -192,45 +192,42 @@
   box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.08);
   margin-top: -67px;
   position: relative;
-  &::before {
+  &::before, &::after {
     content: '';
     position: absolute;
-    height: 13px;
     background-color: #fff;
+    opacity: 0.502;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+  }
+  &::before {
+    height: 13px;
     width: 97%;
     opacity: 0.502;
     top: -13px;
     left: 17px;
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
   }
   &::after {
-    content: '';
-    position: absolute;
     height: 26px;
-    background-color: #fff;
     opacity: 0.502;
     width: 94%;
     top: -26px;
     left: 34px;
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
   }
   input, select {
     height: 59px;
     outline: none;
+    border: 1px solid #dcdcdc;
   }
   input {
     width: 610px;
     padding-left: 28px;
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
-    border: 1px solid #dcdcdc;
   }
   select {
     display: inline-block;
     width: 195px;
-    border: 1px solid #dcdcdc;
     border-left: none;
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
@@ -251,6 +248,45 @@
 }
 
 // end products section
+// start advantages section
+
+.advantages__inner {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  margin: 120px 0;
+}
+
+.advantages__item {
+  font-size: 16px;
+  padding: 40px 35px 50px;
+  transition: all .5s;
+  &:hover {
+    border-radius: 4px;
+    box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.08);
+  }
+  &-title {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  &-text {
+    color: #555555;
+    line-height: 30px;
+    max-width: 295px;
+  }
+}
+
+.first-title, .third-title {
+  margin-top: 35px;
+}
+
+.second-title {
+  margin-top: 29px;
+}
+
+// end advantages section
+
 
 
 
