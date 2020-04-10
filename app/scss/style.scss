@@ -132,6 +132,7 @@
     right: 0;
     border-radius: 30px;
     outline: none;
+    cursor: pointer;
   }
 }
 
@@ -244,6 +245,7 @@
     outline: none;
     font-size: 16px;
     color: #fff;
+    cursor: pointer;
   }
 }
 
@@ -286,6 +288,150 @@
 }
 
 // end advantages section
+// start weekly products slider
+
+.weeklyproducts {
+  background-color: $grey;
+}
+
+.weeklyproducts__inner {
+  padding: 120px 0;
+}
+
+.weeklyproducts__title {
+  font-size: 30px;
+  background-color: #fff;
+  padding: 35px 30px;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px 0px rgba(108, 111, 115, 0.1);
+  margin-bottom: 50px;
+}
+
+.weeklyproducts__slider-item {
+  max-width: 555px;
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.weeklyproducts__slider-info {
+  padding: 32px 55px 25px 55px;
+  background-color: #fff;
+  position: absolute;
+  right: -105%;
+  z-index: 1;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  box-shadow: 0px 2px 30px 0px rgba(147, 155, 168, 0.1);
+}
+
+.weeklyproducts__slider-title {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.weeklyproducts__slider-authorinfo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.account_photo {
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.author_ref {
+  margin-left: 10px;
+}
+
+.category {
+  margin-left: 45px;
+  color: #7347c1;
+}
+
+.weeklyproducts__slider-text {
+  font-size: 16px;
+  line-height: 30px;
+  color: #555555;
+  max-width: 475px;
+  margin-bottom: 35px;
+}
+
+.weeklyproducts__slider-categories {
+  margin-bottom: 45px;
+  a {
+    color: #868c96;
+    padding: 7px 15px 7px 17px;
+    background-color: #f1f3f6;
+    border-radius: 15px;
+    transition: all .5s;
+    &:hover {
+      background-color: $blue;
+      color: #fff;
+    }
+  }
+  a + a {
+    margin-left: 7px;
+  }
+}
+
+.weeklyproducts__slider-rates {
+  padding-top: 24px;
+  border-top: 1px solid #ececec;
+  a {
+    font-weight: 500;
+    color: #fff;
+    padding: 9px 19px;
+    background-color: $blue;
+    border-radius: 20px;
+  }
+  span {
+    display: inline-block;
+    &.likes {
+      margin-left: 45px;
+      color: #555555;
+    }
+    &.purchases {
+      margin-left: 40px;
+      color: $blue;
+    }
+  }
+}
+
+.slick-arrow {
+  width: 55px;
+  height: 45px;
+  border: none;
+  background-color: #7347c1 ;
+  outline: none;
+  position: absolute;
+  top: -125px;
+  cursor: pointer;
+}
+
+.slick-prev {
+  left: auto;
+  right: 85px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.slick-next {
+  right: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+// end weekly products slider
+
+
 
 
 
