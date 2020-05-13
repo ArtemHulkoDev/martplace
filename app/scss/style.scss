@@ -662,6 +662,286 @@
 }
 
 // end followers section
+// start statistics section
+
+.statistics {
+  background-color: #212225;
+  padding: 95px 0;
+}
+
+.statistics__inner {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.lnr {
+  font-size: 48px;
+}
+
+.lnr-briefcase, .statistics__item-items {
+  color: #feb71d;
+}
+
+.lnr-cloud-download, .statistics__item-sales {
+  color: #58c9e9;
+}
+
+.lnr-smile, .statistics__item-customers {
+  color: #77de51;
+}
+
+.lnr-users, .statistics__item-members {
+  color: #ff6a6d;
+}
+
+.numbers {
+  font-size: 36px;
+  margin-top: 45px;
+}
+
+.statistics__item-text {
+  font-size: 18px;
+  color: #fff;
+  margin-top: 15px;
+}
+
+// end statistics section 
+// start reasons section
+
+.reasons {
+  padding: 120px 0 90px;
+}
+
+.reasons__title {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 30px;
+  span {
+    color: $blue;
+  }
+}
+
+.reasons__text {
+  font-size: 16px;
+  line-height: 30px;
+  text-align: center;
+  color: #555555;
+  max-width: 680px;
+  margin: 0 auto 50px;
+}
+
+.reasons__items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.reasons__item {
+  max-width: 361px;
+  width: 100%;
+  margin-bottom: 30px;
+  box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+}
+
+.reasons__item-number {
+  font-weight: 300;
+  font-size: 48px;
+  color: rgba(92, 135, 248, 0.2);
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.reasons__item-box {
+  text-align: center;
+  .lnr {
+    font-size: 60px;
+    margin-top: -10px;
+    margin-bottom: 50px;
+  }
+  .lnr-license {
+    color: $blue;
+  }
+  .lnr-magic-wand {
+    color: #7f4ec2;
+  }
+  .lnr-lock {
+    color: #77de51;
+  }
+  .lnr-chart-bars {
+    color: #feb71d;
+  }
+  .lnr-leaf {
+    color: #58c9e9;
+  }
+  .lnr-phone {
+    color: #ff6a6d;
+  }
+}
+
+.reasons__item-title {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.reasons__item-text {
+  font-size: 16px;
+  line-height: 30px;
+  color: #555;
+  max-width: 295px;
+  margin: 0 auto 60px;
+}
+
+// end reasons section
+// start options section
+
+.options {
+  display: flex;
+}
+
+.options__item {
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 561px;
+  width: 100%;
+}
+
+.options__item-img {
+  margin: 100px 0 50px;
+}
+
+.options__item-title {
+  color: #fff;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.options__item-text {
+  font-size: 16px;
+  line-height: 30px;
+  color: #fff;
+  padding: 0 100px;
+  margin-bottom: 45px;
+}
+
+.options__item-btn {
+  padding: 20px 25px;
+  background-color: #fff;
+  color: $blue;
+  border-radius: 30px;
+  transition: all ease .3s;
+  font-size: 16px;
+  font-weight: 500;
+  &:hover {
+    background-color: #dedede;
+  }
+  &.shop {
+    color: #7347c1;
+  }
+}
+
+// end options section
+// start feedback section
+
+.feedback {
+  padding: 120px 0;
+  text-align: center;
+}
+
+.feedback__title {
+  font-size: 36px;
+  margin-bottom: 30px;
+  span {
+    color: $blue;
+  }
+}
+
+.feedback__text {
+  font-size: 16px;
+  color: #555555;
+  line-height: 30px;
+  max-width: 675px;
+  margin: 0 auto 60px;
+}
+
+.feedback__items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feedback__item {
+  box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.08);
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  padding: 50px 40px;
+  margin-bottom: 60px;
+  border-left: 2px solid $blue;
+  & + .feedback__item {
+    margin-left: 30px;
+  }
+}
+
+.feedback__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.feedback__photo {
+  width: 80px;
+  height: 80px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 18px;
+}
+
+.feedback__client {
+  margin-right: auto;
+  text-align: left;
+}
+
+.feedback__client-name {
+  font-size: 20px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.feedback__client-job {
+  font-size: 16px;
+  color: #555555;
+}
+
+.feedback__icon {
+  font-size: 60px;
+  color: #e8e8e8;
+}
+
+.feedback__item-text {
+  font-size: 16px;
+  color: #555555;
+  text-align: left;
+  line-height: 30px;
+}
+
+.feedback__btn {
+  padding: 20px 35px;
+  background-color: $blue;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 16px;
+  transition: all ease .3s;
+  &:hover {
+    background-color: #005fc7;
+  }
+}
+
+
+// end feedback section
 
 
 
